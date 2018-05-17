@@ -30,6 +30,8 @@ $primary-font-sans: 'Open Sans', sans-serif;
 $secondary-font-serif: 'Playfair Display', serif;
 
 // Font sizes ---------- /
+// rem-values is a map (key->value)
+// eg. the key 11 retrieves the value 3.75
 $rem-values: (
 	1: 0.75,
 	2: 0.875,
@@ -48,6 +50,11 @@ $rem-values: (
 	15: 4.75,
 );
 
+// The "@each" command if has two variables before "in"
+// will assign to the first the key and the second the value
+//
+// If there is only one variable before "in" it concatenates 
+// key and value together 
 @each $key, $rem-value in $rem-values {
 	.f-size-#{$key} {
 		font-size: $rem-value+rem;
