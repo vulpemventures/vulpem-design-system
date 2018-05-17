@@ -1,0 +1,13 @@
+// SPACES ---------- /
+
+// Space values ---------- /
+$spacing-grid-value: 8pt;
+
+@for $i from 1 through 12 {
+	.margin-#{$i} {
+		margin-bottom: $spacing-grid-value * $i;
+	}
+	.padding-#{$i} {
+		padding-bottom: $spacing-grid-value * $i;
+	}
+}

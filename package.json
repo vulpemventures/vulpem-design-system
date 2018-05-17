@@ -17,5 +17,8 @@
   "homepage": "https://github.com/vulpemventures/vulpem-design-system#readme",
   "devDependencies": {
     "node-sass": "^4.9.0"
+  },
+  "dependencies": {
+    "npm": "^6.0.1"
   }
 }
