@@ -43,13 +43,13 @@ $rem-values: (
 	10: 2.625,
 	11: 3,
 	12: 3.375,
-	13: 3.75
+	13: 3.75,
 	14: 4.25,
 	15: 4.75,
 );
 
-@each $rem-value in $rem-values {
-	.f-size-#{$rem-value} {
+@each $key, $rem-value in $rem-values {
+	.f-size-#{$key} {
 		font-size: $rem-value+rem;
 	}
 }
