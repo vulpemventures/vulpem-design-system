@@ -1,30 +1,3 @@
-# vulpem-design-system
-Vulpem Ventures Design System
-
-# Requirements
-
-* Node > 8 / NPM > 5
-* Editor Style: `Spaces 2`
-
-# Usage
-
-## Build
-
-Install dependencies
-```
-npm i
-```
-
-Run the build script
-```
-npm run build
-```
-
-The compiled css are in the `./build` folder
-
-
----
----
 # VULPEM DESIGN SYSTEM
 ---
 
@@ -90,6 +63,40 @@ $color-warning: #F6BA5D;
 After some tests, accordingly to our design experience, we decide to use a 8pt grid spacing system in our Design System. This is the best choice to keep the UI consistent and clear for the user.
 
 ---
+
+
+# Development 
+
+## Requirements
+
+* Node > 8 / NPM > 5
+* Editor Style: `Spaces 2`
+
+## Usage
+### Clone
+
+`git clone https://github.com/vulpemventures/vulpem-design-system`
+
+### Build
+
+Install dependencies in the cloned folder
+```
+npm i
+```
+
+Import each new file created in the index.scss file
+```
+@import "./lib/variables/spacing.scss";
+```
+
+Run the build script in the same folder
+```
+npm run build
+```
+
+The compiled css are in the `./build` folder
+
+
 
 ### Todos
 
