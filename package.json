@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Vulpem Design System",
   "scripts": {
-    "build": "sh ./scripts/build"
+    "build": "sh ./scripts/build-css",
+    "watch": "sh ./scripts/watch-css"
   },
   "repository": {
     "type": "git",

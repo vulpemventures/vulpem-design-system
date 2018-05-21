@@ -1,0 +1,2 @@
+#!/bin/bash
+node_modules/.bin/node-sass --include-path scss index.scss build/index.css
