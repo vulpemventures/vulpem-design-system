@@ -96,9 +96,7 @@ npm run build
 
 The compiled css are in the `./build` folder
 
-
-
-### Todos
-
- - Add and style components
- - Review & improve
+If you want to automatically watch changes in your scss file and automatically re-build on save
+```
+npm run watch
+```
