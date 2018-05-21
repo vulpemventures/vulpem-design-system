@@ -31,6 +31,8 @@ $primary-font-sans: "Open Sans", sans-serif;
 $secondary-font-serif: "Playfair Display", serif;
 
 // Font sizes ---------- /
+// rem-values is a map (key->value)
+// eg. the key 11 retrieves the value 3.75
 $rem-values: (
   1: 0.75,
   2: 0.875,
