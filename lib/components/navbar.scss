@@ -1,0 +1,61 @@
+@import "../../lib/variables/typography.scss";
+@import "../../lib/variables/spacing.scss";
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background: rgba(0, 0, 0, 0);
+  align-items: center;
+}
+
+.logo {
+  /* flex: 1; */
+  margin-left: $padding-btn-x;
+  margin-top: 32pt;
+  height: auto;
+  width: 80px;
+  opacity: 0.3;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu__item a {
+  padding: $padding-btn-y;
+  margin: 0 $padding-btn-x;
+  text-decoration: none;
+  color: $gray-light;
+
+  & a:hover {
+    color: rgb(224, 224, 224);
+  }
+}
+
+// EXAMPLE
+
+// <header>
+//     <nav class="navbar">
+//       <a href="index.html"><img class="logo" src="#" alt="logo-img"></a>
+//       <ul class="menu">
+//         <li class="menu__item">
+//           <a href="#">menu-1</a>
+//         </li>
+//         <li class="menu__item">
+//           <a href="#">menu-2</a>
+//         </li>
+//         <li class="menu__item">
+//           <a href="#">menu-3</a>
+//         </li>
+//         <li class="menu__item">
+//           <a href="#">menu-4</a>
+//         </li>
+//       </ul>
+//     </nav>
+//   </header>
