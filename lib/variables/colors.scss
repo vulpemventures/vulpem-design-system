@@ -14,7 +14,7 @@ $gray-900:        #24292e !default; // body font color
 
 // -------- Color defaults --------
 // Black based on same hue as $gray-900
-$black:       #1b1f23 !default;
+$black:          #000 !default;
 $white:          #fff !default;
 $gray-dark:   $gray-900 !default;
 $gray-light:  $gray-400 !default;
@@ -22,11 +22,15 @@ $gray:        $gray-500 !default;
 
 
 // COLOR LOGO ---------- /
-$color-logo-black: #000;
-$color-logo-white: #fff;
-$color-logo-grey: #ccc;
+$color-logo-black:  #000;
+$color-logo-white:  #fff;
+$color-logo-grey:   #ccc;
 
 // COLOR STATUS ---------- /
-$color-error: #C23934;
-$color-success: #45B86D;
-$color-warning: #F6BA5D;
+$color-error:     #C23934;
+$color-success:   #45B86D;
+$color-warning:   #F6BA5D;
+
+
+// BORDER COLOR ---------- /
+$border-color:    $black;
