@@ -18,6 +18,8 @@
   "homepage": "https://github.com/vulpemventures/vulpem-design-system#readme",
   "devDependencies": {
     "node-sass": "^4.9.0",
-    "nodemon": "^1.17.4"
+    "nodemon": "^1.17.4",
+    "stylelint": "^9.2.1",
+    "stylelint-config-primer": "^2.2.6"
   }
 }
