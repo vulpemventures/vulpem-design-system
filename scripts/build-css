@@ -1,3 +1,3 @@
 #!/bin/bash
-node_modules/.bin/stylelint "**/*.scss" --fix
+node_modules/.bin/stylelint "**/*.scss"
 node_modules/.bin/node-sass index.scss build/index.css
