@@ -19,7 +19,6 @@
   "devDependencies": {
     "node-sass": "^4.9.0",
     "nodemon": "^1.17.4",
-    "stylelint": "^9.2.1",
-    "stylelint-config-standard": "^18.2.0"
+    "stylelint": "^9.2.1"
   }
 }
